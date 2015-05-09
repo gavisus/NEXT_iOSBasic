@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7577F7841AF778FF00319027 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577F7831AF778FF00319027 /* main.m */; };
+		7577F7871AF778FF00319027 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577F7861AF778FF00319027 /* AppDelegate.m */; };
+		7577F78A1AF778FF00319027 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577F7891AF778FF00319027 /* ViewController.m */; };
+		7577F78D1AF778FF00319027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7577F78B1AF778FF00319027 /* Main.storyboard */; };
+		7577F78F1AF778FF00319027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7577F78E1AF778FF00319027 /* Images.xcassets */; };
+		7577F7921AF778FF00319027 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7577F7901AF778FF00319027 /* LaunchScreen.xib */; };
+		7577F79E1AF778FF00319027 /* W10_ButtonAminationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7577F79D1AF778FF00319027 /* W10_ButtonAminationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7577F7981AF778FF00319027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7577F7761AF778FF00319027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7577F77D1AF778FF00319027;
+			remoteInfo = W10_ButtonAmination;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7577F77E1AF778FF00319027 /* W10_ButtonAmination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W10_ButtonAmination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7577F7821AF778FF00319027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7577F7831AF778FF00319027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7577F7851AF778FF00319027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7577F7861AF778FF00319027 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7577F7881AF778FF00319027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7577F7891AF778FF00319027 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7577F78C1AF778FF00319027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7577F78E1AF778FF00319027 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7577F7911AF778FF00319027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7577F7971AF778FF00319027 /* W10_ButtonAminationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W10_ButtonAminationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7577F79C1AF778FF00319027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7577F79D1AF778FF00319027 /* W10_ButtonAminationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W10_ButtonAminationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7577F77B1AF778FF00319027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577F7941AF778FF00319027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7577F7751AF778FF00319027 = {
+			isa = PBXGroup;
+			children = (
+				7577F7801AF778FF00319027 /* W10_ButtonAmination */,
+				7577F79A1AF778FF00319027 /* W10_ButtonAminationTests */,
+				7577F77F1AF778FF00319027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7577F77F1AF778FF00319027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7577F77E1AF778FF00319027 /* W10_ButtonAmination.app */,
+				7577F7971AF778FF00319027 /* W10_ButtonAminationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7577F7801AF778FF00319027 /* W10_ButtonAmination */ = {
+			isa = PBXGroup;
+			children = (
+				7577F7851AF778FF00319027 /* AppDelegate.h */,
+				7577F7861AF778FF00319027 /* AppDelegate.m */,
+				7577F7881AF778FF00319027 /* ViewController.h */,
+				7577F7891AF778FF00319027 /* ViewController.m */,
+				7577F78B1AF778FF00319027 /* Main.storyboard */,
+				7577F78E1AF778FF00319027 /* Images.xcassets */,
+				7577F7901AF778FF00319027 /* LaunchScreen.xib */,
+				7577F7811AF778FF00319027 /* Supporting Files */,
+			);
+			path = W10_ButtonAmination;
+			sourceTree = "<group>";
+		};
+		7577F7811AF778FF00319027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7577F7821AF778FF00319027 /* Info.plist */,
+				7577F7831AF778FF00319027 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7577F79A1AF778FF00319027 /* W10_ButtonAminationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7577F79D1AF778FF00319027 /* W10_ButtonAminationTests.m */,
+				7577F79B1AF778FF00319027 /* Supporting Files */,
+			);
+			path = W10_ButtonAminationTests;
+			sourceTree = "<group>";
+		};
+		7577F79B1AF778FF00319027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7577F79C1AF778FF00319027 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7577F77D1AF778FF00319027 /* W10_ButtonAmination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7577F7A11AF778FF00319027 /* Build configuration list for PBXNativeTarget "W10_ButtonAmination" */;
+			buildPhases = (
+				7577F77A1AF778FF00319027 /* Sources */,
+				7577F77B1AF778FF00319027 /* Frameworks */,
+				7577F77C1AF778FF00319027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W10_ButtonAmination;
+			productName = W10_ButtonAmination;
+			productReference = 7577F77E1AF778FF00319027 /* W10_ButtonAmination.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7577F7961AF778FF00319027 /* W10_ButtonAminationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7577F7A41AF778FF00319027 /* Build configuration list for PBXNativeTarget "W10_ButtonAminationTests" */;
+			buildPhases = (
+				7577F7931AF778FF00319027 /* Sources */,
+				7577F7941AF778FF00319027 /* Frameworks */,
+				7577F7951AF778FF00319027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7577F7991AF778FF00319027 /* PBXTargetDependency */,
+			);
+			name = W10_ButtonAminationTests;
+			productName = W10_ButtonAminationTests;
+			productReference = 7577F7971AF778FF00319027 /* W10_ButtonAminationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7577F7761AF778FF00319027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = skim;
+				TargetAttributes = {
+					7577F77D1AF778FF00319027 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7577F7961AF778FF00319027 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7577F77D1AF778FF00319027;
+					};
+				};
+			};
+			buildConfigurationList = 7577F7791AF778FF00319027 /* Build configuration list for PBXProject "W10_ButtonAmination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7577F7751AF778FF00319027;
+			productRefGroup = 7577F77F1AF778FF00319027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7577F77D1AF778FF00319027 /* W10_ButtonAmination */,
+				7577F7961AF778FF00319027 /* W10_ButtonAminationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7577F77C1AF778FF00319027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577F78D1AF778FF00319027 /* Main.storyboard in Resources */,
+				7577F7921AF778FF00319027 /* LaunchScreen.xib in Resources */,
+				7577F78F1AF778FF00319027 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577F7951AF778FF00319027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7577F77A1AF778FF00319027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577F78A1AF778FF00319027 /* ViewController.m in Sources */,
+				7577F7871AF778FF00319027 /* AppDelegate.m in Sources */,
+				7577F7841AF778FF00319027 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7577F7931AF778FF00319027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7577F79E1AF778FF00319027 /* W10_ButtonAminationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7577F7991AF778FF00319027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7577F77D1AF778FF00319027 /* W10_ButtonAmination */;
+			targetProxy = 7577F7981AF778FF00319027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7577F78B1AF778FF00319027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7577F78C1AF778FF00319027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7577F7901AF778FF00319027 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7577F7911AF778FF00319027 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7577F79F1AF778FF00319027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7577F7A01AF778FF00319027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7577F7A21AF778FF00319027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = W10_ButtonAmination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7577F7A31AF778FF00319027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = W10_ButtonAmination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7577F7A51AF778FF00319027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = W10_ButtonAminationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W10_ButtonAmination.app/W10_ButtonAmination";
+			};
+			name = Debug;
+		};
+		7577F7A61AF778FF00319027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = W10_ButtonAminationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W10_ButtonAmination.app/W10_ButtonAmination";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7577F7791AF778FF00319027 /* Build configuration list for PBXProject "W10_ButtonAmination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577F79F1AF778FF00319027 /* Debug */,
+				7577F7A01AF778FF00319027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7577F7A11AF778FF00319027 /* Build configuration list for PBXNativeTarget "W10_ButtonAmination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577F7A21AF778FF00319027 /* Debug */,
+				7577F7A31AF778FF00319027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7577F7A41AF778FF00319027 /* Build configuration list for PBXNativeTarget "W10_ButtonAminationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7577F7A51AF778FF00319027 /* Debug */,
+				7577F7A61AF778FF00319027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7577F7761AF778FF00319027 /* Project object */;
+}
